@@ -34,7 +34,7 @@ fig.update_yaxes(tickformat=".0%")
 fig.show()
 
 # Drawing the bar plot
-fig2 = px.bar(x=[pos for pos in range(1, 10)], y=mean_ctr_list, title='Queries CTR distribution based on position',
+fig2 = px.bar(x=[pos for pos in range(1, 10)], y=mean_ctr_list, title='Queries mean CTR distribution based on position',
               labels={'x': 'Position', 'y': 'CTR'}, text_auto=True)
 fig2.update_yaxes(tickformat='.0%')
 fig2.show()
